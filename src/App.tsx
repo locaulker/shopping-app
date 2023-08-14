@@ -5,9 +5,9 @@ import "./App.css"
 function App() {
   return (
     <div className="App">
-      <Greeter />
-      <Greeter />
-      <Greeter />
+      <Greeter person="Colt" />
+      <Greeter person="Blue" />
+      <Greeter person="Elton" />
     </div>
   )
 }
